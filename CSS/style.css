@@ -1,0 +1,44 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #333;
+  font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+line-height: 1.7em;
+}
+
+#container{
+  margin: 180px auto;
+  padding: 20px;
+  max-width: 700px;
+  background: #f4f4f4;
+  color: #333;
+
+}
+
+input{
+  margin-top: 20px;
+  width: 80%;
+  border: 2px blue solid;
+  padding: 10px;
+  color: green;
+}
+button{
+  background: #faf4f4;
+  color: green;
+  width: 15%;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px #333 solid;
+}
+input:hover{
+  color: red;
+}
+button:hover{
+  color: red;
+}
